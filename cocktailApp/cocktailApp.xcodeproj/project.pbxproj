@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0263653FEE1996A47FFCF948 /* Pods_cocktailApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1698EEEBF2B1F304CBCF9A /* Pods_cocktailApp.framework */; };
 		21125D0926D2DEA1009D203C /* Pics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21125D0826D2DEA1009D203C /* Pics.xcassets */; };
+		21125D0F26D30254009D203C /* ItemStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21125D0E26D30254009D203C /* ItemStruct.swift */; };
 		21A21B6926D2D6F3004DFA51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A21B6826D2D6F3004DFA51 /* AppDelegate.swift */; };
 		21A21B6B26D2D6F3004DFA51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A21B6A26D2D6F3004DFA51 /* SceneDelegate.swift */; };
 		21A21B6D26D2D6F3004DFA51 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A21B6C26D2D6F3004DFA51 /* MenuViewController.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		160F2021559A09531BB80470 /* Pods-cocktailApp-cocktailAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocktailApp-cocktailAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-cocktailApp-cocktailAppUITests/Pods-cocktailApp-cocktailAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		21125D0826D2DEA1009D203C /* Pics.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pics.xcassets; sourceTree = "<group>"; };
+		21125D0E26D30254009D203C /* ItemStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStruct.swift; sourceTree = "<group>"; };
 		21A21B6526D2D6F3004DFA51 /* cocktailApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocktailApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A21B6826D2D6F3004DFA51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21A21B6A26D2D6F3004DFA51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21125D0A26D2FC42009D203C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		21125D0B26D2FC53009D203C /* Item */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		21125D0C26D2FC6B009D203C /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		21125D0D26D30227009D203C /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				21125D0E26D30254009D203C /* ItemStruct.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
 		21A21B5C26D2D6F3004DFA51 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +155,10 @@
 				21A21B6A26D2D6F3004DFA51 /* SceneDelegate.swift */,
 				21A21B6C26D2D6F3004DFA51 /* MenuViewController.swift */,
 				21A21B6E26D2D6F3004DFA51 /* Main.storyboard */,
+				21125D0C26D2FC6B009D203C /* Favorites */,
+				21125D0A26D2FC42009D203C /* Menu */,
+				21125D0B26D2FC53009D203C /* Item */,
+				21125D0D26D30227009D203C /* Structs */,
 				21A21B7426D2D704004DFA51 /* Assets.xcassets */,
 				21125D0826D2DEA1009D203C /* Pics.xcassets */,
 				21A21B7626D2D704004DFA51 /* LaunchScreen.storyboard */,
@@ -417,6 +452,7 @@
 				21A21B6926D2D6F3004DFA51 /* AppDelegate.swift in Sources */,
 				21A21B6B26D2D6F3004DFA51 /* SceneDelegate.swift in Sources */,
 				21A21B7326D2D6F3004DFA51 /* cocktailApp.xcdatamodeld in Sources */,
+				21125D0F26D30254009D203C /* ItemStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
