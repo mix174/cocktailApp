@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0263653FEE1996A47FFCF948 /* Pods_cocktailApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1698EEEBF2B1F304CBCF9A /* Pods_cocktailApp.framework */; };
+		21125D0926D2DEA1009D203C /* Pics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21125D0826D2DEA1009D203C /* Pics.xcassets */; };
+		21A21B6926D2D6F3004DFA51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A21B6826D2D6F3004DFA51 /* AppDelegate.swift */; };
+		21A21B6B26D2D6F3004DFA51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A21B6A26D2D6F3004DFA51 /* SceneDelegate.swift */; };
+		21A21B6D26D2D6F3004DFA51 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A21B6C26D2D6F3004DFA51 /* MenuViewController.swift */; };
+		21A21B7026D2D6F3004DFA51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A21B6E26D2D6F3004DFA51 /* Main.storyboard */; };
+		21A21B7326D2D6F3004DFA51 /* cocktailApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21A21B7126D2D6F3004DFA51 /* cocktailApp.xcdatamodeld */; };
+		21A21B7526D2D704004DFA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A21B7426D2D704004DFA51 /* Assets.xcassets */; };
+		21A21B7826D2D704004DFA51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A21B7626D2D704004DFA51 /* LaunchScreen.storyboard */; };
+		21A21B8326D2D705004DFA51 /* cocktailAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A21B8226D2D705004DFA51 /* cocktailAppTests.swift */; };
+		21A21B8E26D2D705004DFA51 /* cocktailAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A21B8D26D2D705004DFA51 /* cocktailAppUITests.swift */; };
+		2A220AE62D4EC9D904267B75 /* Pods_cocktailApp_cocktailAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CE18B5085E250A79602946 /* Pods_cocktailApp_cocktailAppUITests.framework */; };
+		9547CED33F4BD7AB7BF49C58 /* Pods_cocktailAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD35A203DEDE4A7BDFBCC506 /* Pods_cocktailAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21A21B7F26D2D705004DFA51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A21B5D26D2D6F3004DFA51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A21B6426D2D6F3004DFA51;
+			remoteInfo = cocktailApp;
+		};
+		21A21B8A26D2D705004DFA51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A21B5D26D2D6F3004DFA51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A21B6426D2D6F3004DFA51;
+			remoteInfo = cocktailApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160F2021559A09531BB80470 /* Pods-cocktailApp-cocktailAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocktailApp-cocktailAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-cocktailApp-cocktailAppUITests/Pods-cocktailApp-cocktailAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		21125D0826D2DEA1009D203C /* Pics.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pics.xcassets; sourceTree = "<group>"; };
+		21A21B6526D2D6F3004DFA51 /* cocktailApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocktailApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A21B6826D2D6F3004DFA51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21A21B6A26D2D6F3004DFA51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21A21B6C26D2D6F3004DFA51 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		21A21B6F26D2D6F3004DFA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21A21B7226D2D6F3004DFA51 /* cocktailApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cocktailApp.xcdatamodel; sourceTree = "<group>"; };
+		21A21B7426D2D704004DFA51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21A21B7726D2D704004DFA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21A21B7926D2D704004DFA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A21B7E26D2D705004DFA51 /* cocktailAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocktailAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A21B8226D2D705004DFA51 /* cocktailAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cocktailAppTests.swift; sourceTree = "<group>"; };
+		21A21B8426D2D705004DFA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A21B8926D2D705004DFA51 /* cocktailAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocktailAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A21B8D26D2D705004DFA51 /* cocktailAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cocktailAppUITests.swift; sourceTree = "<group>"; };
+		21A21B8F26D2D705004DFA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73CE18B5085E250A79602946 /* Pods_cocktailApp_cocktailAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cocktailApp_cocktailAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C804639FE5EEC3547FEE7876 /* Pods-cocktailAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocktailAppTests.release.xcconfig"; path = "Target Support Files/Pods-cocktailAppTests/Pods-cocktailAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5882CF844F48E69F7E23760 /* Pods-cocktailApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocktailApp.debug.xcconfig"; path = "Target Support Files/Pods-cocktailApp/Pods-cocktailApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DD1698EEEBF2B1F304CBCF9A /* Pods_cocktailApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cocktailApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD35A203DEDE4A7BDFBCC506 /* Pods_cocktailAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cocktailAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0B25A37AB47352D766239B /* Pods-cocktailApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocktailApp.release.xcconfig"; path = "Target Support Files/Pods-cocktailApp/Pods-cocktailApp.release.xcconfig"; sourceTree = "<group>"; };
+		EF15908C3697F189C70C3920 /* Pods-cocktailApp-cocktailAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocktailApp-cocktailAppUITests.release.xcconfig"; path = "Target Support Files/Pods-cocktailApp-cocktailAppUITests/Pods-cocktailApp-cocktailAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F10B4073B06704E130437368 /* Pods-cocktailAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocktailAppTests.debug.xcconfig"; path = "Target Support Files/Pods-cocktailAppTests/Pods-cocktailAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21A21B6226D2D6F3004DFA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0263653FEE1996A47FFCF948 /* Pods_cocktailApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A21B7B26D2D705004DFA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9547CED33F4BD7AB7BF49C58 /* Pods_cocktailAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A21B8626D2D705004DFA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A220AE62D4EC9D904267B75 /* Pods_cocktailApp_cocktailAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A21B5C26D2D6F3004DFA51 = {
+			isa = PBXGroup;
+			children = (
+				21A21B6726D2D6F3004DFA51 /* cocktailApp */,
+				21A21B8126D2D705004DFA51 /* cocktailAppTests */,
+				21A21B8C26D2D705004DFA51 /* cocktailAppUITests */,
+				21A21B6626D2D6F3004DFA51 /* Products */,
+				EA3F082FB87990DC2F507F63 /* Pods */,
+				7483F4059C65C8D17177FFFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21A21B6626D2D6F3004DFA51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21A21B6526D2D6F3004DFA51 /* cocktailApp.app */,
+				21A21B7E26D2D705004DFA51 /* cocktailAppTests.xctest */,
+				21A21B8926D2D705004DFA51 /* cocktailAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21A21B6726D2D6F3004DFA51 /* cocktailApp */ = {
+			isa = PBXGroup;
+			children = (
+				21A21B6826D2D6F3004DFA51 /* AppDelegate.swift */,
+				21A21B6A26D2D6F3004DFA51 /* SceneDelegate.swift */,
+				21A21B6C26D2D6F3004DFA51 /* MenuViewController.swift */,
+				21A21B6E26D2D6F3004DFA51 /* Main.storyboard */,
+				21A21B7426D2D704004DFA51 /* Assets.xcassets */,
+				21125D0826D2DEA1009D203C /* Pics.xcassets */,
+				21A21B7626D2D704004DFA51 /* LaunchScreen.storyboard */,
+				21A21B7926D2D704004DFA51 /* Info.plist */,
+				21A21B7126D2D6F3004DFA51 /* cocktailApp.xcdatamodeld */,
+			);
+			path = cocktailApp;
+			sourceTree = "<group>";
+		};
+		21A21B8126D2D705004DFA51 /* cocktailAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				21A21B8226D2D705004DFA51 /* cocktailAppTests.swift */,
+				21A21B8426D2D705004DFA51 /* Info.plist */,
+			);
+			path = cocktailAppTests;
+			sourceTree = "<group>";
+		};
+		21A21B8C26D2D705004DFA51 /* cocktailAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21A21B8D26D2D705004DFA51 /* cocktailAppUITests.swift */,
+				21A21B8F26D2D705004DFA51 /* Info.plist */,
+			);
+			path = cocktailAppUITests;
+			sourceTree = "<group>";
+		};
+		7483F4059C65C8D17177FFFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD1698EEEBF2B1F304CBCF9A /* Pods_cocktailApp.framework */,
+				73CE18B5085E250A79602946 /* Pods_cocktailApp_cocktailAppUITests.framework */,
+				DD35A203DEDE4A7BDFBCC506 /* Pods_cocktailAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA3F082FB87990DC2F507F63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5882CF844F48E69F7E23760 /* Pods-cocktailApp.debug.xcconfig */,
+				EE0B25A37AB47352D766239B /* Pods-cocktailApp.release.xcconfig */,
+				160F2021559A09531BB80470 /* Pods-cocktailApp-cocktailAppUITests.debug.xcconfig */,
+				EF15908C3697F189C70C3920 /* Pods-cocktailApp-cocktailAppUITests.release.xcconfig */,
+				F10B4073B06704E130437368 /* Pods-cocktailAppTests.debug.xcconfig */,
+				C804639FE5EEC3547FEE7876 /* Pods-cocktailAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21A21B6426D2D6F3004DFA51 /* cocktailApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A21B9226D2D705004DFA51 /* Build configuration list for PBXNativeTarget "cocktailApp" */;
+			buildPhases = (
+				EB735ABB992D53F007564569 /* [CP] Check Pods Manifest.lock */,
+				21A21B6126D2D6F3004DFA51 /* Sources */,
+				21A21B6226D2D6F3004DFA51 /* Frameworks */,
+				21A21B6326D2D6F3004DFA51 /* Resources */,
+				BBA800E02801B49BECFF36E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cocktailApp;
+			productName = cocktailApp;
+			productReference = 21A21B6526D2D6F3004DFA51 /* cocktailApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21A21B7D26D2D705004DFA51 /* cocktailAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A21B9526D2D705004DFA51 /* Build configuration list for PBXNativeTarget "cocktailAppTests" */;
+			buildPhases = (
+				D1045EFE421F5B5DB1FD5FD2 /* [CP] Check Pods Manifest.lock */,
+				21A21B7A26D2D705004DFA51 /* Sources */,
+				21A21B7B26D2D705004DFA51 /* Frameworks */,
+				21A21B7C26D2D705004DFA51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A21B8026D2D705004DFA51 /* PBXTargetDependency */,
+			);
+			name = cocktailAppTests;
+			productName = cocktailAppTests;
+			productReference = 21A21B7E26D2D705004DFA51 /* cocktailAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21A21B8826D2D705004DFA51 /* cocktailAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A21B9826D2D705004DFA51 /* Build configuration list for PBXNativeTarget "cocktailAppUITests" */;
+			buildPhases = (
+				DD26659A4F26CCA1E1592438 /* [CP] Check Pods Manifest.lock */,
+				21A21B8526D2D705004DFA51 /* Sources */,
+				21A21B8626D2D705004DFA51 /* Frameworks */,
+				21A21B8726D2D705004DFA51 /* Resources */,
+				C66E1DEE33A6AC70B960187F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A21B8B26D2D705004DFA51 /* PBXTargetDependency */,
+			);
+			name = cocktailAppUITests;
+			productName = cocktailAppUITests;
+			productReference = 21A21B8926D2D705004DFA51 /* cocktailAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21A21B5D26D2D6F3004DFA51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					21A21B6426D2D6F3004DFA51 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					21A21B7D26D2D705004DFA51 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 21A21B6426D2D6F3004DFA51;
+					};
+					21A21B8826D2D705004DFA51 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 21A21B6426D2D6F3004DFA51;
+					};
+				};
+			};
+			buildConfigurationList = 21A21B6026D2D6F3004DFA51 /* Build configuration list for PBXProject "cocktailApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21A21B5C26D2D6F3004DFA51;
+			productRefGroup = 21A21B6626D2D6F3004DFA51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21A21B6426D2D6F3004DFA51 /* cocktailApp */,
+				21A21B7D26D2D705004DFA51 /* cocktailAppTests */,
+				21A21B8826D2D705004DFA51 /* cocktailAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21A21B6326D2D6F3004DFA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21125D0926D2DEA1009D203C /* Pics.xcassets in Resources */,
+				21A21B7826D2D704004DFA51 /* LaunchScreen.storyboard in Resources */,
+				21A21B7526D2D704004DFA51 /* Assets.xcassets in Resources */,
+				21A21B7026D2D6F3004DFA51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A21B7C26D2D705004DFA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A21B8726D2D705004DFA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BBA800E02801B49BECFF36E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cocktailApp/Pods-cocktailApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cocktailApp/Pods-cocktailApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cocktailApp/Pods-cocktailApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C66E1DEE33A6AC70B960187F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cocktailApp-cocktailAppUITests/Pods-cocktailApp-cocktailAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cocktailApp-cocktailAppUITests/Pods-cocktailApp-cocktailAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cocktailApp-cocktailAppUITests/Pods-cocktailApp-cocktailAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1045EFE421F5B5DB1FD5FD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cocktailAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD26659A4F26CCA1E1592438 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cocktailApp-cocktailAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB735ABB992D53F007564569 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cocktailApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A21B6126D2D6F3004DFA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A21B6D26D2D6F3004DFA51 /* MenuViewController.swift in Sources */,
+				21A21B6926D2D6F3004DFA51 /* AppDelegate.swift in Sources */,
+				21A21B6B26D2D6F3004DFA51 /* SceneDelegate.swift in Sources */,
+				21A21B7326D2D6F3004DFA51 /* cocktailApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A21B7A26D2D705004DFA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A21B8326D2D705004DFA51 /* cocktailAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A21B8526D2D705004DFA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A21B8E26D2D705004DFA51 /* cocktailAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21A21B8026D2D705004DFA51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A21B6426D2D6F3004DFA51 /* cocktailApp */;
+			targetProxy = 21A21B7F26D2D705004DFA51 /* PBXContainerItemProxy */;
+		};
+		21A21B8B26D2D705004DFA51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A21B6426D2D6F3004DFA51 /* cocktailApp */;
+			targetProxy = 21A21B8A26D2D705004DFA51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21A21B6E26D2D6F3004DFA51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A21B6F26D2D6F3004DFA51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21A21B7626D2D704004DFA51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A21B7726D2D704004DFA51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21A21B9026D2D705004DFA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21A21B9126D2D705004DFA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21A21B9326D2D705004DFA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5882CF844F48E69F7E23760 /* Pods-cocktailApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67NXF37MR9;
+				INFOPLIST_FILE = cocktailApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mix174.cocktailApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		21A21B9426D2D705004DFA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0B25A37AB47352D766239B /* Pods-cocktailApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67NXF37MR9;
+				INFOPLIST_FILE = cocktailApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mix174.cocktailApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		21A21B9626D2D705004DFA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F10B4073B06704E130437368 /* Pods-cocktailAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67NXF37MR9;
+				INFOPLIST_FILE = cocktailAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mix174.cocktailAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cocktailApp.app/cocktailApp";
+			};
+			name = Debug;
+		};
+		21A21B9726D2D705004DFA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C804639FE5EEC3547FEE7876 /* Pods-cocktailAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67NXF37MR9;
+				INFOPLIST_FILE = cocktailAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mix174.cocktailAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cocktailApp.app/cocktailApp";
+			};
+			name = Release;
+		};
+		21A21B9926D2D705004DFA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160F2021559A09531BB80470 /* Pods-cocktailApp-cocktailAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67NXF37MR9;
+				INFOPLIST_FILE = cocktailAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mix174.cocktailAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cocktailApp;
+			};
+			name = Debug;
+		};
+		21A21B9A26D2D705004DFA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF15908C3697F189C70C3920 /* Pods-cocktailApp-cocktailAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67NXF37MR9;
+				INFOPLIST_FILE = cocktailAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mix174.cocktailAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cocktailApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21A21B6026D2D6F3004DFA51 /* Build configuration list for PBXProject "cocktailApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A21B9026D2D705004DFA51 /* Debug */,
+				21A21B9126D2D705004DFA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A21B9226D2D705004DFA51 /* Build configuration list for PBXNativeTarget "cocktailApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A21B9326D2D705004DFA51 /* Debug */,
+				21A21B9426D2D705004DFA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A21B9526D2D705004DFA51 /* Build configuration list for PBXNativeTarget "cocktailAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A21B9626D2D705004DFA51 /* Debug */,
+				21A21B9726D2D705004DFA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A21B9826D2D705004DFA51 /* Build configuration list for PBXNativeTarget "cocktailAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A21B9926D2D705004DFA51 /* Debug */,
+				21A21B9A26D2D705004DFA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21A21B7126D2D6F3004DFA51 /* cocktailApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21A21B7226D2D6F3004DFA51 /* cocktailApp.xcdatamodel */,
+			);
+			currentVersion = 21A21B7226D2D6F3004DFA51 /* cocktailApp.xcdatamodel */;
+			path = cocktailApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 21A21B5D26D2D6F3004DFA51 /* Project object */;
+}
