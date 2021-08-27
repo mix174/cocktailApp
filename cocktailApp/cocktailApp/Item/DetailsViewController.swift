@@ -71,7 +71,7 @@ final class DetailsViewController: UIViewController, DetailsVCProtocol {
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false
         segmentedControl.selectedSegmentIndex = 0
         segmentedControl.addTarget(self, action: #selector(changeSegmentedControlValue), for: .valueChanged)
-        segmentedControl.backgroundColor = .purple
+        segmentedControl.backgroundColor = .darkPurple
         contentView.addSubview(segmentedControl)
         
         // TableView

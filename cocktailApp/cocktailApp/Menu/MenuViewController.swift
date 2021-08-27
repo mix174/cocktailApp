@@ -75,7 +75,7 @@ final class MenuViewController: UIViewController, MenuVCProtocol {
         navigationItem.backButtonTitle = "Назад"
         navigationController?.navigationBar.tintColor = .white
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        navigationController?.navigationBar.barTintColor = .purple
+        navigationController?.navigationBar.barTintColor = .darkPurple
     }
     
     func makeConstraints() {
