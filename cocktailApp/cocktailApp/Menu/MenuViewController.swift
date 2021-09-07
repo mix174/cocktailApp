@@ -70,6 +70,8 @@ final class MenuViewController: UIViewController, MenuVCProtocol {
         tableView.delegate = self
     }
     
+    
+    
     func setNaviBar() {
         navigationItem.title = "Cocktails&Dreams"
         navigationItem.backButtonTitle = "Назад"
