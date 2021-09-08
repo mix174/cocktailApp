@@ -27,6 +27,11 @@ final class MenuCell: UITableViewCell {
             return
         }
         picture.image = item.image
+        contentView.backgroundColor = .white
+        name.textColor = .black
+        shortDescription.textColor = .black
+        tag1.textColor = .gray
+        
         makeContraints()
     }
     

@@ -27,7 +27,8 @@ final class DetailsTableViewCell: UITableViewCell {
         valueLabel.numberOfLines = 0
         valueLabel.sizeToFit()
         valueLabel.font = valueLabel.font.withSize(25)
-        
+        contentView.backgroundColor = .white
+        valueLabel.textColor = .black
         contentView.addSubview(valueLabel)
     }
     
